@@ -22,7 +22,7 @@ We plan to collect the following data using the APIs provided:
 Record Type, Registration Class, City, Zip, County, Model Year, Make, Body Type, Fuel Type, Reg Valid Date, Reg Expiration Date, Color
 Registration Class: PAS and SRF (passenger vehicles)
 
-<h3>Questions:</h3?
+<h3>Questions:</h3>
 <ol><li>Distribution of Electric cars across the state with regard to Urban (Suburban) vs Rural
     ownership.</li>
     <li>Age of vehicles across the state.</li>
