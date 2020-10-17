@@ -11,7 +11,7 @@ We will also be using Census data: https://www.census.gov/data.html
 
 Preview of the vehicle data set:
 
-https://github.com/paloni-dotcom/Se7en/blob/main/Images/sampletabledata.png
+![alt text](https://github.com/paloni-dotcom/Se7en/blob/main/Images/sampletabledata.png)
 
 The data set has over 11 million rows and includes the following information:
 Record Type, Vin, Registration Class, City, State, Zip, County, Model Year, Make, Body Type, Fuel Type, Unladen Weight, Maximum Gross weight, Passengers, Reg Valid Date, Reg Expiration Date, Color, Scofflaw Indicator, Suspension Indicator, Revocation Indicator.
