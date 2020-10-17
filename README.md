@@ -1,6 +1,6 @@
 # Se7en
 
-![NY plate](https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.ny.gov%2Fservices%2Frenew-vehicle-registration-online&psig=AOvVaw0X0wL7iYw3nbbHZ4-l_aj5&ust=1603037105449000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCKiestyAvOwCFQAAAAAdAAAAABAI)
+![NY plate](https://github.com/paloni-dotcom/Se7en/blob/main/Images/renew_registration_hero.jpg?raw=true)
 
 <h3>Project Proposal: Distribution of Vehicles in the State of New York</h3>
 
