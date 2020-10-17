@@ -26,9 +26,9 @@ Registration Class: PAS and SRF (passenger vehicles)
 <ol><li>Distribution of Electric cars across the state with regard to Urban (Suburban) vs Rural
     ownership.</li>
     <li>Age of vehicles across the state.</li>
-</li>Vehicle ownership across the state compared to population(or median income).</li>
-</li>Most popular make and color.<li>
-</li>Comparison of electric cars vs non-electric.<li></ol>
+<li>Vehicle ownership across the state compared to population(or median income).</li>
+<li>Most popular make and color.</li>
+<li>Comparison of electric cars vs non-electric.</li></ol>
 
 <h3>APIs:</h3>
 <ol><li>https://dev.socrata.com/foundry/data.ny.gov/w4pv-hbkt : used to retrieve the vehicle data</li>
