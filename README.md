@@ -11,6 +11,7 @@ We will also be using Census data: https://www.census.gov/data.html
 
 Preview of the vehicle data set:
 
+
 The data set has over 11 million rows and includes the following information:
 Record Type, Vin, Registration Class, City, State, Zip, County, Model Year, Make, Body Type, Fuel Type, Unladen Weight, Maximum Gross weight, Passengers, Reg Valid Date, Reg Expiration Date, Color, Scofflaw Indicator, Suspension Indicator, Revocation Indicator.
 There are 4 types of records: Boat, Snowmobile, Trailer and Vehicle.
