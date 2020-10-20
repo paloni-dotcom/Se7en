@@ -15,11 +15,11 @@
 ## General info
 Project Proposal: How is the car you drive affecting the air quality and weather in your neighborhood?
 
-Notes: Limiting our sample to New York State
 
-### Data Source:
-Main source of data is from https://data.ny.gov/Transportation/Vehicle-Snowmobile-and-Boat- Registrations/w4pv-hbkt
-We will also be using Census data: https://www.census.gov/data.html 
+### Data Source: 
+Vehicle distribution in New York State (https://data.ny.gov/Transportation/Vehicle-Snowmobile-and-Boat-Registrations/w4pv-hbkt) and Air Quality data (https://docs.airnowapi.org/HistoricalObservationsByZip/docs)
+Air quality index: https://docs.airnowapi.org/docs/AirNowAPIFactSheet.pdf
+Notes: Limiting our sample to New York State
 
 ### Preview of the vehicle data set:
 
@@ -36,22 +36,14 @@ Registration Class: PAS and SRF (passenger vehicles)
 
 
 ### Questions to ask/Tasks to do:
-* Distribution of cars across the state compared to air quality. Data sets Vehicle distribution in New York State (https://data.ny.gov/Transportation/Vehicle-Snowmobile-and-Boat-Registrations/w4pv-hbkt) and Air Quality data (https://docs.airnowapi.org/HistoricalObservationsByZip/docs)
-You can find the air quality index here: https://docs.airnowapi.org/docs/AirNowAPIFactSheet.pdf
-This part can be divided into 2 parts: Finding the number of vehicles by zipcode and finding the air quality index(AQI) by zipcode. And plotting a heat map showing the air quality index and number of cars
-* Same as above but compare age of cars with air quality data.
-* Same as above but check if electric/hybrid vehicles had any effect on air quality
-* Checking if the increase in cars affected the weather. We look at the Vehicle data set and check the vehicle model year and graph the average max and min temp over the years along with the number of cars by model year. Here we will assume the car was purchased during the model year.
-* Statistical tables. Have to figure this one. What statistics can we look for.
-
-
-### Questions:
-* Distribution of Electric cars across the state with regard to Urban (Suburban) vs Rural
-    ownership.
-* Age of vehicles across the state.
-* Vehicle ownership across the state compared to population(or median income).
-* Most popular make and color.
-* Comparison of electric cars vs non-electric.
+* 1. Density of cars across the state compared to air quality. 
+This part can be divided into 2 parts: 
+* a.	Finding the number of vehicles by zipcode and finding the air quality index(AQI) by zipcode. 
+* b.	And plotting a heat map showing the air quality index and density of cars.
+* 2.	Same as above but compare age of cars with air quality data. 
+* 3.	Same as above but check if electric/hybrid vehicles had any effect on air quality
+* 4.	Checking if the density of cars affects the weather. We look at the Vehicle data set and check the vehicle model year and graph the average max temp over the years along with the number of cars by model year. Here we will assume the car was purchased during the model year. Repeat 1, 2 and 3 with temp instead of air quality. 
+* 5.	Statistical tables. Have to figure this one. What statistics can we look for.
 
 ### APIs:
 * https://dev.socrata.com/foundry/data.ny.gov/w4pv-hbkt : used to retrieve the vehicle data
@@ -60,7 +52,6 @@ This part can be divided into 2 parts: Finding the number of vehicles by zipcode
 * Google Maps API
 
     
-
 
 ## Screenshots
 ![Example screenshot](./img/screenshot.png)
