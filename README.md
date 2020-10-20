@@ -2,16 +2,26 @@
 
 ![NY plate](https://github.com/paloni-dotcom/Se7en/blob/main/Images/renew_registration_hero.jpg?raw=true)
 
-<h3>Project Proposal: Distribution of Vehicles in the State of New York</h3>
+## Table of content
+* [General info](#general-info)
+* [Screenshots](#screenshots)
+* [Technologies](#technologies)
+* [Setup](#setup)
+* [Features](#features)
+* [Status](#status)
+* [Inspiration](#inspiration)
+* [Contact](#contact)
+
+## General info
+Project Proposal: How is the car you drive affecting the air quality and weather in your neighborhood?
 
 
-The aim of this proposal is to look at the distribution of vehicles across New York State (for car dealers to optimize their inventory). We will look at distribution of Electric cars, age of vehicles across the state, average number of vehicles by population and most popular make and color.
+### Data Source: 
+Vehicle distribution in New York State (https://data.ny.gov/Transportation/Vehicle-Snowmobile-and-Boat-Registrations/w4pv-hbkt) and Air Quality data (https://docs.airnowapi.org/HistoricalObservationsByZip/docs)
+Air quality index: https://docs.airnowapi.org/docs/AirNowAPIFactSheet.pdf
+Notes: Limiting our sample to New York State
 
-<h3>Data Source:</h3>
-Main source of data is from https://data.ny.gov/Transportation/Vehicle-Snowmobile-and-Boat- Registrations/w4pv-hbkt
-We will also be using Census data: https://www.census.gov/data.html 
-
-<h3>Preview of the vehicle data set:</h3>
+### Preview of the vehicle data set:
 
 ![alt text](https://github.com/paloni-dotcom/Se7en/blob/main/Images/sampletabledata.png)
 
@@ -24,16 +34,60 @@ We plan to collect the following data using the APIs provided:
 Record Type, Registration Class, City, Zip, County, Model Year, Make, Body Type, Fuel Type, Reg Valid Date, Reg Expiration Date, Color
 Registration Class: PAS and SRF (passenger vehicles)
 
-<h3>Questions:</h3>
-<ol><li>Distribution of Electric cars across the state with regard to Urban (Suburban) vs Rural
-    ownership.</li>
-    <li>Age of vehicles across the state.</li>
-<li>Vehicle ownership across the state compared to population(or median income).</li>
-<li>Most popular make and color.</li>
-<li>Comparison of electric cars vs non-electric.</li></ol>
 
-<h3>APIs:</h3>
-<ol><li>https://dev.socrata.com/foundry/data.ny.gov/w4pv-hbkt : used to retrieve the vehicle data</li>
-    <li>Census API : to retrieve population data for New York State</li>
-    <li>Google Maps API</li></ol>
+### Questions to ask/Tasks to do:
+* 1. Density of cars across the state compared to air quality. 
+This part can be divided into 2 parts: 
+* a.	Finding the number of vehicles by zipcode and finding the air quality index(AQI) by zipcode. 
+* b.	And plotting a heat map showing the air quality index and density of cars.
+* 2.	Same as above but compare age of cars with air quality data. 
+* 3.	Same as above but check if electric/hybrid vehicles had any effect on air quality
+* 4.	Checking if the density of cars affects the weather. We look at the Vehicle data set and check the vehicle model year and graph the average max temp over the years along with the number of cars by model year. Here we will assume the car was purchased during the model year. Repeat 1, 2 and 3 with temp instead of air quality. 
+* 5.	Statistical tables. Have to figure this one. What statistics can we look for.
+
+### APIs:
+* https://dev.socrata.com/foundry/data.ny.gov/w4pv-hbkt : used to retrieve the vehicle data
+* Air Quality API from AirNow
+*  Open Weather API
+* Google Maps API
+
     
+
+## Screenshots
+![Example screenshot](./img/screenshot.png)
+
+## Technologies
+* Tech 1 - version 1.0
+* Tech 2 - version 2.0
+* Tech 3 - version 3.0
+
+## Setup
+Required dependencies:
+
+pip install pandas
+pip install sodapy
+
+## Code Examples
+Show examples of usage:
+`put-your-code-here`
+
+## Features
+List of features ready and TODOs for future development
+* Awesome feature 1
+* Awesome feature 2
+* Awesome feature 3
+
+
+## Status
+Project is: _in progress_, _finished_, _no longer continue_ and why?
+
+## Inspiration
+Add here credits. Project inspired by..., based on...
+
+## Contact
+Created by 
+[@celeste1030](https://github.com/) 
+[@deepavadakan](https://github.com/) 
+[@paloni-dotcom](https://github.com/) 
+[@timsamson](https://github.com/) 
+[@williamrosen](https://github.com/) 
