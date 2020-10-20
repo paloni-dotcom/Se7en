@@ -2,7 +2,7 @@
 
 ![NY plate](https://github.com/paloni-dotcom/Se7en/blob/main/Images/renew_registration_hero.jpg?raw=true)
 
-## Table of contents
+## Table of content
 * [General info](#general-info)
 * [Screenshots](#screenshots)
 * [Technologies](#technologies)
