@@ -149,7 +149,9 @@ Notes: Limiting our sample to New York State
         <td><img src="Images/car_age_2015.png" width=270></td>
 
 * In 2020 we see AQI does not change a lot but mean of car age again only increases in this areas.        
-        
+
+<table>
+    <tr>
         
 #### AQI vs. Body Type of Vehicles
 <table>
