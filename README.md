@@ -84,6 +84,33 @@ Notes: Limiting our sample to New York State
 * Here we are comparing the Air Quality Index based on density of cars by zipcode.
 * The following scatter plots for years 2009, 2015 and 2020 show that density of cars in a given area does not have a correlation to the average Air Quality Index.
 
+<table>
+    <tr>
+        <td><img src="Images/AQI_by_zip_2009.png" width=270></td>
+        <td><img src="Images/car_density_2009.png" width=270></td>
+    <tr>
+<table>
+ 
+* Based on Heat map we can see some correlation. Areas with high AQI shows high density of cars.
+
+<table>
+    <tr>     
+        <td><img src="Images/AQI_by_zip_2015.png" width=270></td>
+        <td><img src="Images/car_density_2015.png" width=270></td>
+    <tr>
+<table>
+        
+* 2015 was a strange year. Although number of cars increased, AQI is much lower compare to 2009. This shows that there is no correlation between high AQI vs car density if we compare 2009 vs. 2015. 
+
+<table>
+    <tr>        
+        <td><img src="Images/AQI_by_zip_2020.png" width=270></td>
+        <td><img src="Images/car_density_2020.png" width=270></td>
+    <tr>
+<table>
+
+* In 2020 even thouhg numbers of cars increased between 2015-2020, AQI does not shows very minimal to no increase. 
+
 #### AQI vs. Median Age of Vehicles
 <table>
   <tr>
@@ -101,7 +128,31 @@ Notes: Limiting our sample to New York State
     * 2009 -  0.44811961222406105
     * 2015 -  0.06117003935198434
     * 2020 -  0.7560052918089275
-    
+
+<table>
+    <tr>
+        <td><img src="Images/AQI_by_zip_2009.png" width=270></td>
+        <td><img src="Images/car_age_2009.png" width=270></td>
+
+* In above 2009 heat map comparison we see age of cars mean by zip code. It shows some correlation between the maps. High AQI areas have higher mean of car age. 
+        
+<table>
+    <tr>
+        <td><img src="Images/AQI_by_zip_2015.png" width=270></td>
+        <td><img src="Images/car_age_2015.png" width=270></td>
+
+* Again, in 2015 we see significant AQI improvement across NY state; however, mean of car age has only increases in those areas.
+        
+<table>
+    <tr>
+        <td><img src="Images/AQI_by_zip_2015.png" width=270></td>
+        <td><img src="Images/car_age_2015.png" width=270></td>
+
+* In 2020 we see AQI does not change a lot but mean of car age again only increases in this areas.        
+
+<table>
+    <tr>
+        
 #### AQI vs. Body Type of Vehicles
 <table>
   <tr>
