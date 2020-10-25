@@ -88,22 +88,28 @@ Notes: Limiting our sample to New York State
     <tr>
         <td><img src="Images/AQI_by_zip_2009.png" width=270></td>
         <td><img src="Images/car_density_2009.png" width=270></td>
+    <tr>
+<table>
  
-* Based on Heat map we can see some correlations. Areas with high AQI are also densed car population.
+* Based on Heat map we can see some correlation. Areas with high AQI shows high density of cars.
 
 <table>
     <tr>     
-        <td><img src="Images/AQI_by_sip_2015.png" width=270></td>
+        <td><img src="Images/AQI_by_zip_2015.png" width=270></td>
         <td><img src="Images/car_density_2015" width=270></td>
+    <tr>
+<table>
         
-* 2015 was a strange year. Althouhg number of cars increased, AQI is much lower in some areas compare to 2009. 
+* 2015 was a strange year. Although number of cars increased, AQI is much lower compare to 2009. This shows that there is no correlation between high AQI vs car density if we compare 2009 vs. 2015. 
 
 <table>
     <tr>        
-        <td><img src="Images/AQI_by_sip_2020.png" width=270></td>
+        <td><img src="Images/AQI_by_zip_2020.png" width=270></td>
         <td><img src="Images/car_density_2020.png" width=270></td>
+    <tr>
+<table>
 
-* In 2020 even thouhg numbers of cards increases between 2015-2020, AQI does not show a significant difference. 
+* In 2020 even thouhg numbers of cars increased between 2015-2020, AQI does not shows very minimal to no increase. 
 
 #### AQI vs. Median Age of Vehicles
 <table>
