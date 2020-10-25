@@ -96,7 +96,7 @@ Notes: Limiting our sample to New York State
 <table>
     <tr>     
         <td><img src="Images/AQI_by_zip_2015.png" width=270></td>
-        <td><img src="Images/car_density_2015" width=270></td>
+        <td><img src="Images/car_density_2015.png" width=270></td>
     <tr>
 <table>
         
